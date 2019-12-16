@@ -1,4 +1,4 @@
-console.log('This is from java script at client side')
+
 
 // fetch('http://puzzle.mead.io/puzzle').then((response)=> {
 
