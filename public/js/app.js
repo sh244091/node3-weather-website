@@ -26,6 +26,12 @@ weatherForm.addEventListener('submit', (e)=> {
     messageOne.textContent = 'Loading...'
     messageTwo.textContent = ''
 
+    if(!location) {
+
+       return messageOne.textContent = 'Location field cannot be empty.'
+        
+    }  
+
     fetch('/weather?address=!'+ location).then((response)=> {
 
     response.json().then((data) => {
