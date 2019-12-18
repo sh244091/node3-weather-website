@@ -28,7 +28,7 @@ weatherForm.addEventListener('submit', (e)=> {
 
     if(!location) {
 
-       return messageOne.textContent = 'Location field cannot be empty.'
+       return messageOne.textContent = 'Location name cannot be empty.'
         
     }  
 
