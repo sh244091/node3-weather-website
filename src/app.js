@@ -43,7 +43,7 @@ app.get('/help', (req, res)=> {
     res.render('help', {
 
         title: 'Help',
-        msg : 'This is some helpful text',
+        msg : 'This is a help page and it provides some helpful text.',
         name: 'Lateef'
     })
 
